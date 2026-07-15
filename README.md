@@ -1,4 +1,4 @@
-# Homý — Gastos Residenciais
+# Homy — Gastos Residenciais
 
 Aplicação full-stack para cadastro de pessoas, transações e consulta dos totais
 de uma residência. A API usa .NET 10, EF Core e SQLite; a interface usa React,
