@@ -9,4 +9,6 @@ obj/
 *.db-wal
 logs/
 TestResults/
-
+frontend/node_modules/
+frontend/dist/
+frontend/.env
