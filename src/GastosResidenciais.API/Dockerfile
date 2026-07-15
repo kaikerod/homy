@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
+FROM mcr.microsoft.com/dotnet/sdk:10.0.100 AS build
 WORKDIR /src
 COPY Directory.Build.props Directory.Packages.props global.json GastosResidenciais.sln ./
 COPY src/GastosResidenciais.Domain/GastosResidenciais.Domain.csproj src/GastosResidenciais.Domain/
