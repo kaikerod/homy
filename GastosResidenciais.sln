@@ -1,0 +1,48 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GastosResidenciais.Domain", "src\GastosResidenciais.Domain\GastosResidenciais.Domain.csproj", "{6AC650F5-8DC4-4832-8CB1-9AE8A75C8C52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GastosResidenciais.Application", "src\GastosResidenciais.Application\GastosResidenciais.Application.csproj", "{5A9FE307-8197-47A9-89A3-9EAF483F1209}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GastosResidenciais.Infrastructure", "src\GastosResidenciais.Infrastructure\GastosResidenciais.Infrastructure.csproj", "{0527875C-C42A-4186-9669-098B29C24252}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GastosResidenciais.API", "src\GastosResidenciais.API\GastosResidenciais.API.csproj", "{658AD62D-C07B-4A9C-B321-AFC9B2EA6F1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GastosResidenciais.UnitTests", "tests\GastosResidenciais.UnitTests\GastosResidenciais.UnitTests.csproj", "{EF72F214-63A1-4F94-A21E-05C368FDCF99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GastosResidenciais.IntegrationTests", "tests\GastosResidenciais.IntegrationTests\GastosResidenciais.IntegrationTests.csproj", "{8EEBA8F0-79D9-4986-98B3-6DFF7304D955}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6AC650F5-8DC4-4832-8CB1-9AE8A75C8C52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AC650F5-8DC4-4832-8CB1-9AE8A75C8C52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AC650F5-8DC4-4832-8CB1-9AE8A75C8C52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AC650F5-8DC4-4832-8CB1-9AE8A75C8C52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A9FE307-8197-47A9-89A3-9EAF483F1209}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A9FE307-8197-47A9-89A3-9EAF483F1209}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A9FE307-8197-47A9-89A3-9EAF483F1209}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A9FE307-8197-47A9-89A3-9EAF483F1209}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0527875C-C42A-4186-9669-098B29C24252}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0527875C-C42A-4186-9669-098B29C24252}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0527875C-C42A-4186-9669-098B29C24252}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0527875C-C42A-4186-9669-098B29C24252}.Release|Any CPU.Build.0 = Release|Any CPU
+		{658AD62D-C07B-4A9C-B321-AFC9B2EA6F1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{658AD62D-C07B-4A9C-B321-AFC9B2EA6F1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{658AD62D-C07B-4A9C-B321-AFC9B2EA6F1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{658AD62D-C07B-4A9C-B321-AFC9B2EA6F1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF72F214-63A1-4F94-A21E-05C368FDCF99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF72F214-63A1-4F94-A21E-05C368FDCF99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF72F214-63A1-4F94-A21E-05C368FDCF99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF72F214-63A1-4F94-A21E-05C368FDCF99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EEBA8F0-79D9-4986-98B3-6DFF7304D955}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EEBA8F0-79D9-4986-98B3-6DFF7304D955}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EEBA8F0-79D9-4986-98B3-6DFF7304D955}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EEBA8F0-79D9-4986-98B3-6DFF7304D955}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
