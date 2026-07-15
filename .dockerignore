@@ -1,0 +1,13 @@
+.git
+.github
+.agents
+.codex
+**/bin
+**/obj
+**/node_modules
+**/dist
+*.db
+*.db-shm
+*.db-wal
+logs
+TestResults

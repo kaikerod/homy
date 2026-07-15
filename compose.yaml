@@ -1,0 +1,25 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: src/GastosResidenciais.API/Dockerfile
+    environment:
+      ConnectionStrings__DefaultConnection: Data Source=/data/gastos.db
+      AllowedOrigins__0: http://localhost:8080
+    volumes:
+      - gastos-data:/data
+    restart: unless-stopped
+
+  web:
+    build:
+      context: frontend
+      args:
+        VITE_API_URL: /api/v1
+    depends_on:
+      - api
+    ports:
+      - "8080:80"
+    restart: unless-stopped
+
+volumes:
+  gastos-data:
