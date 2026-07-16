@@ -4,6 +4,10 @@ Aplicação full-stack para cadastro de pessoas, transações e consulta dos tot
 de uma residência. A API usa .NET 10, EF Core e SQLite; a interface usa React,
 TypeScript, Vite e TanStack Query.
 
+Veja [a lógica da aplicação](docs/LOGICA-DA-APLICACAO.md) para entender os
+fluxos, regras de negócio, cálculos e endpoints disponíveis.
+Para a arquitetura e os contratos detalhados, consulte a [especificação técnica](SPEC.md).
+
 ## Executar com Docker
 
 Requisito: Docker com o plugin Compose.
