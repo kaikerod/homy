@@ -4,7 +4,7 @@
 |---|---|
 | **Versão** | 1.0 |
 | **Data** | 14/07/2026 |
-| **Autor** | Staff Software Engineer / Tech Lead (documento gerado) |
+| **Autor** | Kaike Vinicius Rodrigues de Melo |
 | **Status** | Pronto para implementação |
 | **Stack** | .NET 10 (LTS) + ASP.NET Core Web API + EF Core 10 · React + TypeScript · SQLite |
 
